@@ -23,4 +23,4 @@ QMDP = "3aa3ecc9-5a5d-57c8-8188-3e47bd8068d2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["DiscreteValueIteration", "POMDPPolicies", "POMDPSimulators","QMDP", "Test"]
+test = ["DiscreteValueIteration", "POMDPPolicies", "POMDPSimulators", "QMDP", "Test"]
