@@ -9,3 +9,11 @@ function POMDPs.action(p::PingFirst, b::AbstractParticleBelief)
         return PING
     end
 end
+
+function POMDPs.action(p::PingFirst, s::SubState)
+    if s.aware
+        return action(p.p, s)
+    else
+        return PING
+    end
+end
